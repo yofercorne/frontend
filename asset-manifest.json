@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/frontend/static/css/main.9de68aaf.css",
+    "main.js": "/frontend/static/js/main.9702ac2b.js",
+    "static/js/453.68693753.chunk.js": "/frontend/static/js/453.68693753.chunk.js",
+    "static/media/uñas.jpg": "/frontend/static/media/uñas.52eb0cbc79ebacc5d841.jpg",
+    "static/media/instalacion.jpg": "/frontend/static/media/instalacion.0e28876b0e67562044eb.jpg",
+    "static/media/persona3.jpg": "/frontend/static/media/persona3.7d00179de4cf4cbf80d5.jpg",
+    "static/media/registro.png": "/frontend/static/media/registro.8eb117e391353d812394.png",
+    "static/media/bootstrap-icons.woff?": "/frontend/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/características.png": "/frontend/static/media/características.9bf87788d26a5816d7f1.png",
+    "static/media/inicio.png": "/frontend/static/media/inicio.08196a54c7ea002e7c4d.png",
+    "static/media/logo2.png": "/frontend/static/media/logo2.4bf8a7e4320e762eca7e.png",
+    "static/media/bootstrap-icons.woff2?": "/frontend/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/Inteligencia.jpg": "/frontend/static/media/Inteligencia.e61757f4060bf19310a0.jpg",
+    "static/media/persona5.jpg": "/frontend/static/media/persona5.8886eddc68d34926345e.jpg",
+    "static/media/barberia.jpg": "/frontend/static/media/barberia.d3e1fa08e6298f8ed51e.jpg",
+    "static/media/empleo.jpg": "/frontend/static/media/empleo.6f45b7b7eda3db568a6c.jpg",
+    "static/media/maquillaje.jpg": "/frontend/static/media/maquillaje.db806014a79e51c42336.jpg",
+    "static/media/servicio.jpg": "/frontend/static/media/servicio.66ac97f499aa5abda720.jpg",
+    "static/media/profile.jpg": "/frontend/static/media/profile.70b4d24a576590fb99d7.jpg",
+    "static/media/logo5.png": "/frontend/static/media/logo5.73a47eef32d3abe26ce6.png",
+    "static/media/persona1.jpg": "/frontend/static/media/persona1.18ee9500f085ccc354d4.jpg",
+    "static/media/persona2.jpg": "/frontend/static/media/persona2.1627e43f356c8de8adba.jpg",
+    "static/media/slick.svg": "/frontend/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/frontend/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/frontend/index.html",
+    "main.9de68aaf.css.map": "/frontend/static/css/main.9de68aaf.css.map",
+    "main.9702ac2b.js.map": "/frontend/static/js/main.9702ac2b.js.map",
+    "453.68693753.chunk.js.map": "/frontend/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9de68aaf.css",
+    "static/js/main.9702ac2b.js"
+  ]
+}
