@@ -1,0 +1,58 @@
+.chatbot-container {
+  position: fixed;
+  bottom: 20px;  /* Ajusta este valor para posicionar el ícono correctamente */
+  right: 20px;   /* Ajusta este valor para posicionar el ícono correctamente */
+  width: 60px;   /* Ajusta el tamaño del contenedor del ícono */
+  height: 120px;  /* Ajusta el tamaño del contenedor del ícono */
+  z-index: 1000; /* Asegúrate de que el ícono esté por encima de otros elementos */
+}
+
+.chatbot-window {
+  position: fixed;
+  bottom: 80px;  /* Ajusta este valor para posicionar la ventana correctamente */
+  right: 20px;   /* Ajusta este valor para posicionar la ventana correctamente */
+  width: 300px;  /* Ajusta el tamaño de la ventana del chatbot */
+  height: 550px; /* Ajusta la altura de la ventana del chatbot */
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  transition: height 0.3s ease;
+}
+
+.chatbot-header {
+  background-color: #b28238;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-header-buttons {
+  display: flex;
+}
+
+.chatbot-header button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.chatbot-icon {
+  width: 60px;   /* Ajusta el tamaño del ícono */
+  height: 60px;  /* Ajusta el tamaño del ícono */
+  cursor: pointer;
+}
+
+.chatbot-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

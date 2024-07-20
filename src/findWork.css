@@ -1,0 +1,116 @@
+/* findWork.css */
+.job-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.filter-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.job-form-control {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.job-form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.btn-outline-secondary {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.job-map-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#map {
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.mb-4 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fff;
+}
+
+.list-group-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job-item {
+  cursor: pointer;
+}
+
+.job-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.job-list-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.job-stars {
+  display: flex;
+}
+
+.checked {
+  color: gold;
+  margin-right: 2px;
+}
+
+.job-text-right {
+  text-align: right;
+}
+
+.job-text-muted {
+  color: #6c757d;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}

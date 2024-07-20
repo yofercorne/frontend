@@ -1,0 +1,78 @@
+/* Prefijamos todas las clases con .service-details-container para evitar conflictos */
+.service-details-container .rating {
+  display: flex;
+  align-items: center;
+}
+
+.service-details-container .rating .fa-star,
+.service-details-container .rating .fa-star-half-alt {
+  color: lightgray;
+  font-size: 2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+}
+
+.service-details-container .rating .fa-star.full-star,
+.service-details-container .rating .fa-star-half-alt.half-star {
+  color: gold;
+}
+
+.service-details-container .rating-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.service-details-container .rating-section .rating-score {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.service-details-container .user-rating-section {
+  margin-top: 2rem;
+}
+
+.service-details-container .user-rating-section .rating-score {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.service-details-container .error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.service-details-container .loading-message {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.service-details-container .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.service-details-container .btn:hover {
+  background-color: #0056b3;
+}
+
+.service-details-container .text-success {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}

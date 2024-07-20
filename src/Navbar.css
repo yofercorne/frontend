@@ -1,0 +1,209 @@
+.logo-image {
+  height: 60px; /* Ajusta la altura de la imagen según tu necesidad */
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 0.5rem 1rem;
+  position: fixed; /* Fija la barra de navegación */
+  top: 0; /* Posición en la parte superior de la pantalla */
+  width: 100%; /* Ocupa todo el ancho de la pantalla */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 80px;
+  margin-right: 10px;
+}
+
+.nav-link, .protected-link {
+  color: #fff !important;
+  margin: 0 10px; /* Separación manual entre enlaces */
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.nav-link.active, .protected-link.active {
+  color: #c5c100 !important; /* Color destacado para la página activa */
+  border-bottom: 2px solid #c5c100; /* Línea inferior para la página activa */
+}
+
+.nav-link:hover {
+  color: #c5c100 !important; /* Color destacado para la página activa */
+}
+
+.protected-link:hover {
+  color: #c5c100 !important; /* Color destacado para la página activa */
+}
+
+.user-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Añade separación del icono de perfil */
+}
+
+.user-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.user-image-large {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+}
+
+.user-menu {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 350px; /* Ajusta el ancho del menú desplegable */
+  max-height: 400px; /* Limita la altura máxima del menú */
+  overflow-y: auto; /* Habilita el desplazamiento vertical */
+  padding: 10px;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-info div {
+  margin-left: 10px;
+}
+
+.user-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-email {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin: 0;
+}
+
+.nav-dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-dropdown-item i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.nav-dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #007bff;
+}
+
+/* New Styles for Notifications */
+.notification-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f9f9f9;
+  transition: background-color 0.2s;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-item:hover {
+  background-color: #f1f1f1;
+}
+
+.notification-avatar {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.notification-content {
+  flex-grow: 1;
+  white-space: normal; /* Permite que el texto se ajuste a múltiples líneas */
+}
+
+.notification-content p {
+  margin: 0;
+  font-size: 1rem; /* Ajusta el tamaño de la fuente */
+  color: #333; /* Color del texto */
+}
+
+.notification-content small {
+  display: block;
+  margin-top: 5px;
+  color: #888;
+  font-size: 0.8rem; /* Ajusta el tamaño de la fuente */
+}
+
+.dropdown-menu {
+  width: 250px; /* Ajusta el ancho del menú desplegable para que las notificaciones tengan más espacio */
+  left: -193px !important; /* Desplaza el menú más hacia la izquierda */
+  overflow-x: hidden; /* Evita que el contenido desplace la pantalla horizontalmente */
+}
+
+.badge-light {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+/* Custom styles for Dropdown Menu */
+.dropdown-menu-custom {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.notification-item p {
+  white-space: normal; /* Permite que el texto se ajuste a múltiples líneas */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
